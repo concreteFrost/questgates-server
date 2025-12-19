@@ -37,8 +37,8 @@ async function handleSubmit() {
   try {
     const res = await testSubmit();
     console.log(res);
-  } catch (err: any) {
-    console.log("error:");
+  } catch (err) {
+    if (err instanceof Error) console.log("error: " + err.message);
   }
 }
 
