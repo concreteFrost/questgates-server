@@ -1,7 +1,11 @@
 import { Router } from "express";
-import { submitPolicyAuditorRequest } from "controllers/submit.controller";
+import {
+  getAllPoicies,
+  submitPolicyAuditorRequest,
+} from "controllers/policies.controller";
 
 const router: Router = Router();
-router.post("/submit", submitPolicyAuditorRequest);
+router.post("/policies/submit", submitPolicyAuditorRequest);
+router.get("/policies/get", getAllPoicies);
 
 export default router;

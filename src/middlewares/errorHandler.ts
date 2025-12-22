@@ -1,9 +1,8 @@
 import { Response } from "express";
 
-export function handleErrorResponse(res: Response, error: any) {
+export function handleErrorResponse(res: Response, message: string) {
   res.status(500).json({
     success: false,
-    message: "Internal Server Error",
-    error,
+    message,
   });
 }

@@ -10,14 +10,14 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./src",
     "paths": {
-      "@config/*":["config/*"],
-      "@crypto/*":["crypto/*"],
-      "@shared/*" : ["shared/*"],
-      "@middlewares/*":["middlewares/*"],
-      "@services/*":["services/*"],
-      "@routes/*":["routes/*"]
+      "@config/*": ["config/*"],
+      "@crypto/*": ["crypto/*"],
+      "@shared/*": ["shared/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@services/*": ["services/*"],
+      "@routes/*": ["routes/*"]
     }
   },
-  "include": ["src/**/*", "testClient"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }

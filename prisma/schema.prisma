@@ -11,14 +11,23 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
-
 
 model User {
-  id    Int     @id @default(autoincrement())
+  id    String  @id
   email String  @unique
   name  String?
-
 }
 
+model PolicyAuditorRequest {
+  id                String   @id @default(uuid())
+  received          DateTime @default(now())
+  country           String
+  operator          String
+  operatorTicketId  String   @unique
+  gameNameId        String
+  clientId          String
+  insurancePolicyId String
+  policyRequestedAt DateTime
+  bets              Json
+}

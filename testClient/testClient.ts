@@ -14,10 +14,13 @@ const signature = signJson(payload, clientPrivateKey);
 const tamperedPayload: PolicyAuditorRequest = { ...payload, country: "RU" };
 
 async function testSubmit() {
-  const response = await axios.post(`${process.env.BASE_URL}/api/submit`, {
-    ...payload,
-    signature,
-  });
+  const response = await axios.post(
+    `${process.env.BASE_URL}/api/policies/submit`,
+    {
+      ...payload,
+      signature,
+    }
+  );
 
   //response data to verify
   const { signature: serverSignature, ...rest }: any = response.data;
@@ -29,7 +32,6 @@ async function testSubmit() {
     verify,
     serverSignature,
     data: { ...rest },
-    message: "success",
   };
 }
 
@@ -37,8 +39,8 @@ async function handleSubmit() {
   try {
     const res = await testSubmit();
     console.log(res);
-  } catch (err) {
-    if (err instanceof Error) console.log("error: " + err.message);
+  } catch (err: any) {
+    console.log(err.response.data);
   }
 }
 
