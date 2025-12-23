@@ -4,6 +4,8 @@ import { serverPrivateKey, serverPublicKey } from "@crypto/serverKeys";
 import { handleErrorResponse } from "@middlewares/errorHandler";
 import { prisma } from "../lib/prisma";
 import { Prisma } from "generated/prisma/client";
+import { PolicyRequestSchema } from "validators/validators";
+import z, { uuid } from "zod";
 
 export const submitPolicyAuditorRequest = async (
   req: Request,
@@ -26,6 +28,16 @@ export const submitPolicyAuditorRequest = async (
       });
     }
 
+    const validation = PolicyRequestSchema.safeParse(data);
+
+    if (!validation.success) {
+      const prettyError = z.prettifyError(validation.error);
+      return res.status(401).json({
+        success: false,
+        message: prettyError,
+      });
+    }
+
     const record = await prisma.policyAuditorRequest.create({
       data: {
         country: data.country,
@@ -40,7 +52,7 @@ export const submitPolicyAuditorRequest = async (
     });
 
     const responseData = {
-      id: record.id, // ✔ корректно
+      id: record.id,
       status: "success",
       timestamp: new Date().toISOString(),
       keyId: "cocoon-key-id",

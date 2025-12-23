@@ -1,4 +1,4 @@
-import { ServerConfig } from "@shared/types/config.types";
+import { ServerConfig } from "@shared/interfaces/index";
 
 const config: ServerConfig = {
   port: Number(process.env.PORT) || 3000,

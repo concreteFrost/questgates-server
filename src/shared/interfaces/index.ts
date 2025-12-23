@@ -1,3 +1,8 @@
+export interface ServerConfig {
+  port: number;
+  nodeEnv: string;
+}
+
 /*for DB add: 
 id: uidv4 , 
 received : Timestamp,
