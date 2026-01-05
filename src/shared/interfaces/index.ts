@@ -1,6 +1,14 @@
+import { Request } from "express";
+
 export interface ServerConfig {
   port: number;
   nodeEnv: string;
+}
+
+export interface CustomRequest extends Request {
+  user: {
+    id: string;
+  };
 }
 
 /*for DB add: 

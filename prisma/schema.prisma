@@ -14,9 +14,10 @@ datasource db {
 }
 
 model User {
-  id    String  @id
-  email String  @unique
-  name  String?
+  id       String  @id @default(uuid())
+  email    String  @unique
+  name     String?
+  passHash String
 }
 
 model PolicyAuditorRequest {

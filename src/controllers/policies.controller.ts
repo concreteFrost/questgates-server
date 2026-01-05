@@ -1,19 +1,19 @@
 import { Request, Response } from "express";
 import { signJson, verifyJson } from "@services/signature";
 import { serverPrivateKey, serverPublicKey } from "@crypto/serverKeys";
-import { handleErrorResponse } from "@middlewares/errorHandler";
+import { handleErrorResponse } from "utils/errorHandler";
 import { prisma } from "../lib/prisma";
 import { Prisma } from "generated/prisma/client";
 import { PolicyRequestSchema } from "validators/validators";
-import z, { uuid } from "zod";
+import z, { success } from "zod";
 
 export const submitPolicyAuditorRequest = async (
   req: Request,
   res: Response
 ) => {
-  const { signature, ...data } = req.body;
-
   try {
+    const { signature, ...data } = req.body;
+
     if (!signature) {
       return res.status(400).json({
         success: false,
@@ -72,7 +72,7 @@ export const submitPolicyAuditorRequest = async (
       }
     }
 
-    return handleErrorResponse(res, "internal error");
+    return handleErrorResponse(res, "Internal Error");
   }
 };
 
@@ -84,5 +84,26 @@ export const getAllPoicies = async (req: Request, res: Response) => {
       success: true,
       policies: policies,
     });
-  } catch (error) {}
+  } catch (error) {
+    return handleErrorResponse(res, "Failed to get policies");
+  }
+};
+
+export const getPoliciesByCountry = async (req: Request, res: Response) => {
+  try {
+    const { country } = req.body;
+
+    const policies = await prisma.policyAuditorRequest.findMany({
+      where: {
+        country: country === undefined ? "" : country,
+      },
+    });
+
+    res.status(200).json({
+      success: true,
+      policies: policies,
+    });
+  } catch (error) {
+    return handleErrorResponse(res, "Failed to get policies");
+  }
 };
