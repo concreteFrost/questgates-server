@@ -1,6 +1,6 @@
 import { ErrorInterface } from "password-validator-pro";
 
-export function passwordErrorHandler(error: ErrorInterface[]): string[] {
+export function passwordErrorFormatter(error: ErrorInterface[]): string[] {
   const obj: any = {};
 
   for (let i of error) {

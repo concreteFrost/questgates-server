@@ -5,12 +5,6 @@ export interface ServerConfig {
   nodeEnv: string;
 }
 
-export interface CustomRequest extends Request {
-  user: {
-    id: string;
-  };
-}
-
 /*for DB add: 
 id: uidv4 , 
 received : Timestamp,

@@ -1,0 +1,408 @@
+{
+  "data": {
+    "country": "ES",
+    "operator": "SELAE",
+    "operatorTicketId": "1286102021242205328558658118152028",
+    "operatorTicketCode": "A=1286102021242205328558658118152028;P=2;S=36416SEP25:7;W=1;.1=020506202341;T=51555-1;R=4;",
+    "gameNameId": "BONOLOTO",
+    "clientId": "beee2785-d2d6-405e-8f05-cb5b9fb6da81",
+    "insurancePolicyId": "POL-3332-1-wFTKEV09WRM77bzk",
+    "policyRequestedAt": "2026-01-02T09:19:04.797Z",
+    "bets": [
+      {
+        "drawDateTime": "2026-01-06T20:30:00.000Z",
+        "betData": {
+          "joker": "",
+          "juego": "BONOLOTO",
+          "total": 0.5,
+          "precio": 0.5,
+          "premio": 0,
+          "cantidad": 1,
+          "aleatoria": false,
+          "almanaque": true,
+          "reintegro": "4",
+          "combinacion": "2,5,6,20,23,41",
+          "combinaciones": [
+            {
+              "juego": "BONOLOTO",
+              "linea": "2,5,6,20,23,41",
+              "estrellas": [],
+              "numerosCombinacion": [
+                {
+                  "numero": "2",
+                  "highlighted": false,
+                  "numero2Digits": "02"
+                },
+                {
+                  "numero": "5",
+                  "highlighted": false,
+                  "numero2Digits": "05"
+                },
+                {
+                  "numero": "6",
+                  "highlighted": false,
+                  "numero2Digits": "06"
+                },
+                {
+                  "numero": "20",
+                  "highlighted": false,
+                  "numero2Digits": "20"
+                },
+                {
+                  "numero": "23",
+                  "highlighted": false,
+                  "numero2Digits": "23"
+                },
+                {
+                  "numero": "41",
+                  "highlighted": false,
+                  "numero2Digits": "41"
+                }
+              ]
+            }
+          ],
+          "fechaCreacion": 1767344778436,
+          "serieFraccion": ""
+        }
+      },
+      {
+        "drawDateTime": "2026-01-07T20:30:00.000Z",
+        "betData": {
+          "joker": "",
+          "juego": "BONOLOTO",
+          "total": 0.5,
+          "precio": 0.5,
+          "premio": 0,
+          "cantidad": 1,
+          "aleatoria": false,
+          "almanaque": true,
+          "reintegro": "4",
+          "combinacion": "2,5,6,20,23,41",
+          "combinaciones": [
+            {
+              "juego": "BONOLOTO",
+              "linea": "2,5,6,20,23,41",
+              "estrellas": [],
+              "numerosCombinacion": [
+                {
+                  "numero": "2",
+                  "highlighted": false,
+                  "numero2Digits": "02"
+                },
+                {
+                  "numero": "5",
+                  "highlighted": false,
+                  "numero2Digits": "05"
+                },
+                {
+                  "numero": "6",
+                  "highlighted": false,
+                  "numero2Digits": "06"
+                },
+                {
+                  "numero": "20",
+                  "highlighted": false,
+                  "numero2Digits": "20"
+                },
+                {
+                  "numero": "23",
+                  "highlighted": false,
+                  "numero2Digits": "23"
+                },
+                {
+                  "numero": "41",
+                  "highlighted": false,
+                  "numero2Digits": "41"
+                }
+              ]
+            }
+          ],
+          "fechaCreacion": 1767344778439,
+          "serieFraccion": ""
+        }
+      },
+      {
+        "drawDateTime": "2026-01-08T20:30:00.000Z",
+        "betData": {
+          "joker": "",
+          "juego": "BONOLOTO",
+          "total": 0.5,
+          "precio": 0.5,
+          "premio": 0,
+          "cantidad": 1,
+          "aleatoria": false,
+          "almanaque": true,
+          "reintegro": "4",
+          "combinacion": "2,5,6,20,23,41",
+          "combinaciones": [
+            {
+              "juego": "BONOLOTO",
+              "linea": "2,5,6,20,23,41",
+              "estrellas": [],
+              "numerosCombinacion": [
+                {
+                  "numero": "2",
+                  "highlighted": false,
+                  "numero2Digits": "02"
+                },
+                {
+                  "numero": "5",
+                  "highlighted": false,
+                  "numero2Digits": "05"
+                },
+                {
+                  "numero": "6",
+                  "highlighted": false,
+                  "numero2Digits": "06"
+                },
+                {
+                  "numero": "20",
+                  "highlighted": false,
+                  "numero2Digits": "20"
+                },
+                {
+                  "numero": "23",
+                  "highlighted": false,
+                  "numero2Digits": "23"
+                },
+                {
+                  "numero": "41",
+                  "highlighted": false,
+                  "numero2Digits": "41"
+                }
+              ]
+            }
+          ],
+          "fechaCreacion": 1767344778441,
+          "serieFraccion": ""
+        }
+      },
+      {
+        "drawDateTime": "2026-01-09T20:30:00.000Z",
+        "betData": {
+          "joker": "",
+          "juego": "BONOLOTO",
+          "total": 0.5,
+          "precio": 0.5,
+          "premio": 0,
+          "cantidad": 1,
+          "aleatoria": false,
+          "almanaque": true,
+          "reintegro": "4",
+          "combinacion": "2,5,6,20,23,41",
+          "combinaciones": [
+            {
+              "juego": "BONOLOTO",
+              "linea": "2,5,6,20,23,41",
+              "estrellas": [],
+              "numerosCombinacion": [
+                {
+                  "numero": "2",
+                  "highlighted": false,
+                  "numero2Digits": "02"
+                },
+                {
+                  "numero": "5",
+                  "highlighted": false,
+                  "numero2Digits": "05"
+                },
+                {
+                  "numero": "6",
+                  "highlighted": false,
+                  "numero2Digits": "06"
+                },
+                {
+                  "numero": "20",
+                  "highlighted": false,
+                  "numero2Digits": "20"
+                },
+                {
+                  "numero": "23",
+                  "highlighted": false,
+                  "numero2Digits": "23"
+                },
+                {
+                  "numero": "41",
+                  "highlighted": false,
+                  "numero2Digits": "41"
+                }
+              ]
+            }
+          ],
+          "fechaCreacion": 1767344778443,
+          "serieFraccion": ""
+        }
+      },
+      {
+        "drawDateTime": "2026-01-10T20:30:00.000Z",
+        "betData": {
+          "joker": "",
+          "juego": "BONOLOTO",
+          "total": 0.5,
+          "precio": 0.5,
+          "premio": 0,
+          "cantidad": 1,
+          "aleatoria": false,
+          "almanaque": true,
+          "reintegro": "4",
+          "combinacion": "2,5,6,20,23,41",
+          "combinaciones": [
+            {
+              "juego": "BONOLOTO",
+              "linea": "2,5,6,20,23,41",
+              "estrellas": [],
+              "numerosCombinacion": [
+                {
+                  "numero": "2",
+                  "highlighted": false,
+                  "numero2Digits": "02"
+                },
+                {
+                  "numero": "5",
+                  "highlighted": false,
+                  "numero2Digits": "05"
+                },
+                {
+                  "numero": "6",
+                  "highlighted": false,
+                  "numero2Digits": "06"
+                },
+                {
+                  "numero": "20",
+                  "highlighted": false,
+                  "numero2Digits": "20"
+                },
+                {
+                  "numero": "23",
+                  "highlighted": false,
+                  "numero2Digits": "23"
+                },
+                {
+                  "numero": "41",
+                  "highlighted": false,
+                  "numero2Digits": "41"
+                }
+              ]
+            }
+          ],
+          "fechaCreacion": 1767344778443,
+          "serieFraccion": ""
+        }
+      },
+      {
+        "drawDateTime": "2026-01-11T20:30:00.000Z",
+        "betData": {
+          "joker": "",
+          "juego": "BONOLOTO",
+          "total": 0.5,
+          "precio": 0.5,
+          "premio": 0,
+          "cantidad": 1,
+          "aleatoria": false,
+          "almanaque": true,
+          "reintegro": "4",
+          "combinacion": "2,5,6,20,23,41",
+          "combinaciones": [
+            {
+              "juego": "BONOLOTO",
+              "linea": "2,5,6,20,23,41",
+              "estrellas": [],
+              "numerosCombinacion": [
+                {
+                  "numero": "2",
+                  "highlighted": false,
+                  "numero2Digits": "02"
+                },
+                {
+                  "numero": "5",
+                  "highlighted": false,
+                  "numero2Digits": "05"
+                },
+                {
+                  "numero": "6",
+                  "highlighted": false,
+                  "numero2Digits": "06"
+                },
+                {
+                  "numero": "20",
+                  "highlighted": false,
+                  "numero2Digits": "20"
+                },
+                {
+                  "numero": "23",
+                  "highlighted": false,
+                  "numero2Digits": "23"
+                },
+                {
+                  "numero": "41",
+                  "highlighted": false,
+                  "numero2Digits": "41"
+                }
+              ]
+            }
+          ],
+          "fechaCreacion": 1767344778444,
+          "serieFraccion": ""
+        }
+      },
+      {
+        "drawDateTime": "2026-01-12T20:30:00.000Z",
+        "betData": {
+          "joker": "",
+          "juego": "BONOLOTO",
+          "total": 0.5,
+          "precio": 0.5,
+          "premio": 0,
+          "cantidad": 1,
+          "aleatoria": false,
+          "almanaque": true,
+          "reintegro": "4",
+          "combinacion": "2,5,6,20,23,41",
+          "combinaciones": [
+            {
+              "juego": "BONOLOTO",
+              "linea": "2,5,6,20,23,41",
+              "estrellas": [],
+              "numerosCombinacion": [
+                {
+                  "numero": "2",
+                  "highlighted": false,
+                  "numero2Digits": "02"
+                },
+                {
+                  "numero": "5",
+                  "highlighted": false,
+                  "numero2Digits": "05"
+                },
+                {
+                  "numero": "6",
+                  "highlighted": false,
+                  "numero2Digits": "06"
+                },
+                {
+                  "numero": "20",
+                  "highlighted": false,
+                  "numero2Digits": "20"
+                },
+                {
+                  "numero": "23",
+                  "highlighted": false,
+                  "numero2Digits": "23"
+                },
+                {
+                  "numero": "41",
+                  "highlighted": false,
+                  "numero2Digits": "41"
+                }
+              ]
+            }
+          ],
+          "fechaCreacion": 1767344778444,
+          "serieFraccion": ""
+        }
+      }
+    ]
+  },
+  "signedAt": "2026-01-02T09:19:04.838Z",
+  "signature": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImRlZmF1bHQta2V5In0.eyJkYXRhIjp7ImNvdW50cnkiOiJFUyIsIm9wZXJhdG9yIjoiU0VMQUUiLCJvcGVyYXRvclRpY2tldElkIjoiMTI4NjEwMjAyMTI0MjIwNTMyODU1ODY1ODExODE1MjAyOCIsIm9wZXJhdG9yVGlja2V0Q29kZSI6IkE9MTI4NjEwMjAyMTI0MjIwNTMyODU1ODY1ODExODE1MjAyODtQPTI7Uz0zNjQxNlNFUDI1Ojc7Vz0xOy4xPTAyMDUwNjIwMjM0MTtUPTUxNTU1LTE7Uj00OyIsImdhbWVOYW1lSWQiOiJCT05PTE9UTyIsImNsaWVudElkIjoiYmVlZTI3ODUtZDJkNi00MDVlLThmMDUtY2I1YjlmYjZkYTgxIiwiaW5zdXJhbmNlUG9saWN5SWQiOiJQT0wtMzMzMi0xLXdGVEtFVjA5V1JNNzdiemsiLCJwb2xpY3lSZXF1ZXN0ZWRBdCI6IjIwMjYtMDEtMDJUMDk6MTk6MDQuNzk3WiIsImJldHMiOlt7ImRyYXdEYXRlVGltZSI6IjIwMjYtMDEtMDZUMjA6MzA6MDAuMDAwWiIsImJldERhdGEiOnsiam9rZXIiOiIiLCJqdWVnbyI6IkJPTk9MT1RPIiwidG90YWwiOjAuNSwicHJlY2lvIjowLjUsInByZW1pbyI6MCwiY2FudGlkYWQiOjEsImFsZWF0b3JpYSI6ZmFsc2UsImFsbWFuYXF1ZSI6dHJ1ZSwicmVpbnRlZ3JvIjoiNCIsImNvbWJpbmFjaW9uIjoiMiw1LDYsMjAsMjMsNDEiLCJjb21iaW5hY2lvbmVzIjpbeyJqdWVnbyI6IkJPTk9MT1RPIiwibGluZWEiOiIyLDUsNiwyMCwyMyw0MSIsImVzdHJlbGxhcyI6W10sIm51bWVyb3NDb21iaW5hY2lvbiI6W3sibnVtZXJvIjoiMiIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjAyIn0seyJudW1lcm8iOiI1IiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMDUifSx7Im51bWVybyI6IjYiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIwNiJ9LHsibnVtZXJvIjoiMjAiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIyMCJ9LHsibnVtZXJvIjoiMjMiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIyMyJ9LHsibnVtZXJvIjoiNDEiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiI0MSJ9XX1dLCJmZWNoYUNyZWFjaW9uIjoxNzY3MzQ0Nzc4NDM2LCJzZXJpZUZyYWNjaW9uIjoiIn19LHsiZHJhd0RhdGVUaW1lIjoiMjAyNi0wMS0wN1QyMDozMDowMC4wMDBaIiwiYmV0RGF0YSI6eyJqb2tlciI6IiIsImp1ZWdvIjoiQk9OT0xPVE8iLCJ0b3RhbCI6MC41LCJwcmVjaW8iOjAuNSwicHJlbWlvIjowLCJjYW50aWRhZCI6MSwiYWxlYXRvcmlhIjpmYWxzZSwiYWxtYW5hcXVlIjp0cnVlLCJyZWludGVncm8iOiI0IiwiY29tYmluYWNpb24iOiIyLDUsNiwyMCwyMyw0MSIsImNvbWJpbmFjaW9uZXMiOlt7Imp1ZWdvIjoiQk9OT0xPVE8iLCJsaW5lYSI6IjIsNSw2LDIwLDIzLDQxIiwiZXN0cmVsbGFzIjpbXSwibnVtZXJvc0NvbWJpbmFjaW9uIjpbeyJudW1lcm8iOiIyIiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMDIifSx7Im51bWVybyI6IjUiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIwNSJ9LHsibnVtZXJvIjoiNiIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjA2In0seyJudW1lcm8iOiIyMCIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjIwIn0seyJudW1lcm8iOiIyMyIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjIzIn0seyJudW1lcm8iOiI0MSIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjQxIn1dfV0sImZlY2hhQ3JlYWNpb24iOjE3NjczNDQ3Nzg0MzksInNlcmllRnJhY2Npb24iOiIifX0seyJkcmF3RGF0ZVRpbWUiOiIyMDI2LTAxLTA4VDIwOjMwOjAwLjAwMFoiLCJiZXREYXRhIjp7Impva2VyIjoiIiwianVlZ28iOiJCT05PTE9UTyIsInRvdGFsIjowLjUsInByZWNpbyI6MC41LCJwcmVtaW8iOjAsImNhbnRpZGFkIjoxLCJhbGVhdG9yaWEiOmZhbHNlLCJhbG1hbmFxdWUiOnRydWUsInJlaW50ZWdybyI6IjQiLCJjb21iaW5hY2lvbiI6IjIsNSw2LDIwLDIzLDQxIiwiY29tYmluYWNpb25lcyI6W3sianVlZ28iOiJCT05PTE9UTyIsImxpbmVhIjoiMiw1LDYsMjAsMjMsNDEiLCJlc3RyZWxsYXMiOltdLCJudW1lcm9zQ29tYmluYWNpb24iOlt7Im51bWVybyI6IjIiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIwMiJ9LHsibnVtZXJvIjoiNSIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjA1In0seyJudW1lcm8iOiI2IiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMDYifSx7Im51bWVybyI6IjIwIiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMjAifSx7Im51bWVybyI6IjIzIiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMjMifSx7Im51bWVybyI6IjQxIiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiNDEifV19XSwiZmVjaGFDcmVhY2lvbiI6MTc2NzM0NDc3ODQ0MSwic2VyaWVGcmFjY2lvbiI6IiJ9fSx7ImRyYXdEYXRlVGltZSI6IjIwMjYtMDEtMDlUMjA6MzA6MDAuMDAwWiIsImJldERhdGEiOnsiam9rZXIiOiIiLCJqdWVnbyI6IkJPTk9MT1RPIiwidG90YWwiOjAuNSwicHJlY2lvIjowLjUsInByZW1pbyI6MCwiY2FudGlkYWQiOjEsImFsZWF0b3JpYSI6ZmFsc2UsImFsbWFuYXF1ZSI6dHJ1ZSwicmVpbnRlZ3JvIjoiNCIsImNvbWJpbmFjaW9uIjoiMiw1LDYsMjAsMjMsNDEiLCJjb21iaW5hY2lvbmVzIjpbeyJqdWVnbyI6IkJPTk9MT1RPIiwibGluZWEiOiIyLDUsNiwyMCwyMyw0MSIsImVzdHJlbGxhcyI6W10sIm51bWVyb3NDb21iaW5hY2lvbiI6W3sibnVtZXJvIjoiMiIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjAyIn0seyJudW1lcm8iOiI1IiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMDUifSx7Im51bWVybyI6IjYiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIwNiJ9LHsibnVtZXJvIjoiMjAiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIyMCJ9LHsibnVtZXJvIjoiMjMiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIyMyJ9LHsibnVtZXJvIjoiNDEiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiI0MSJ9XX1dLCJmZWNoYUNyZWFjaW9uIjoxNzY3MzQ0Nzc4NDQzLCJzZXJpZUZyYWNjaW9uIjoiIn19LHsiZHJhd0RhdGVUaW1lIjoiMjAyNi0wMS0xMFQyMDozMDowMC4wMDBaIiwiYmV0RGF0YSI6eyJqb2tlciI6IiIsImp1ZWdvIjoiQk9OT0xPVE8iLCJ0b3RhbCI6MC41LCJwcmVjaW8iOjAuNSwicHJlbWlvIjowLCJjYW50aWRhZCI6MSwiYWxlYXRvcmlhIjpmYWxzZSwiYWxtYW5hcXVlIjp0cnVlLCJyZWludGVncm8iOiI0IiwiY29tYmluYWNpb24iOiIyLDUsNiwyMCwyMyw0MSIsImNvbWJpbmFjaW9uZXMiOlt7Imp1ZWdvIjoiQk9OT0xPVE8iLCJsaW5lYSI6IjIsNSw2LDIwLDIzLDQxIiwiZXN0cmVsbGFzIjpbXSwibnVtZXJvc0NvbWJpbmFjaW9uIjpbeyJudW1lcm8iOiIyIiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMDIifSx7Im51bWVybyI6IjUiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIwNSJ9LHsibnVtZXJvIjoiNiIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjA2In0seyJudW1lcm8iOiIyMCIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjIwIn0seyJudW1lcm8iOiIyMyIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjIzIn0seyJudW1lcm8iOiI0MSIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjQxIn1dfV0sImZlY2hhQ3JlYWNpb24iOjE3NjczNDQ3Nzg0NDMsInNlcmllRnJhY2Npb24iOiIifX0seyJkcmF3RGF0ZVRpbWUiOiIyMDI2LTAxLTExVDIwOjMwOjAwLjAwMFoiLCJiZXREYXRhIjp7Impva2VyIjoiIiwianVlZ28iOiJCT05PTE9UTyIsInRvdGFsIjowLjUsInByZWNpbyI6MC41LCJwcmVtaW8iOjAsImNhbnRpZGFkIjoxLCJhbGVhdG9yaWEiOmZhbHNlLCJhbG1hbmFxdWUiOnRydWUsInJlaW50ZWdybyI6IjQiLCJjb21iaW5hY2lvbiI6IjIsNSw2LDIwLDIzLDQxIiwiY29tYmluYWNpb25lcyI6W3sianVlZ28iOiJCT05PTE9UTyIsImxpbmVhIjoiMiw1LDYsMjAsMjMsNDEiLCJlc3RyZWxsYXMiOltdLCJudW1lcm9zQ29tYmluYWNpb24iOlt7Im51bWVybyI6IjIiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIwMiJ9LHsibnVtZXJvIjoiNSIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjA1In0seyJudW1lcm8iOiI2IiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMDYifSx7Im51bWVybyI6IjIwIiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMjAifSx7Im51bWVybyI6IjIzIiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMjMifSx7Im51bWVybyI6IjQxIiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiNDEifV19XSwiZmVjaGFDcmVhY2lvbiI6MTc2NzM0NDc3ODQ0NCwic2VyaWVGcmFjY2lvbiI6IiJ9fSx7ImRyYXdEYXRlVGltZSI6IjIwMjYtMDEtMTJUMjA6MzA6MDAuMDAwWiIsImJldERhdGEiOnsiam9rZXIiOiIiLCJqdWVnbyI6IkJPTk9MT1RPIiwidG90YWwiOjAuNSwicHJlY2lvIjowLjUsInByZW1pbyI6MCwiY2FudGlkYWQiOjEsImFsZWF0b3JpYSI6ZmFsc2UsImFsbWFuYXF1ZSI6dHJ1ZSwicmVpbnRlZ3JvIjoiNCIsImNvbWJpbmFjaW9uIjoiMiw1LDYsMjAsMjMsNDEiLCJjb21iaW5hY2lvbmVzIjpbeyJqdWVnbyI6IkJPTk9MT1RPIiwibGluZWEiOiIyLDUsNiwyMCwyMyw0MSIsImVzdHJlbGxhcyI6W10sIm51bWVyb3NDb21iaW5hY2lvbiI6W3sibnVtZXJvIjoiMiIsImhpZ2hsaWdodGVkIjpmYWxzZSwibnVtZXJvMkRpZ2l0cyI6IjAyIn0seyJudW1lcm8iOiI1IiwiaGlnaGxpZ2h0ZWQiOmZhbHNlLCJudW1lcm8yRGlnaXRzIjoiMDUifSx7Im51bWVybyI6IjYiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIwNiJ9LHsibnVtZXJvIjoiMjAiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIyMCJ9LHsibnVtZXJvIjoiMjMiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiIyMyJ9LHsibnVtZXJvIjoiNDEiLCJoaWdobGlnaHRlZCI6ZmFsc2UsIm51bWVybzJEaWdpdHMiOiI0MSJ9XX1dLCJmZWNoYUNyZWFjaW9uIjoxNzY3MzQ0Nzc4NDQ0LCJzZXJpZUZyYWNjaW9uIjoiIn19XX0sInNpZ25lZEF0IjoiMjAyNi0wMS0wMlQwOToxOTowNC44MzhaIn0.kK3g_KnuD2Ymx4HYkbrjzyzTXF1IggfjoqT-4Ll_e_yMtrCiMuItJgzYpK0cRHJ3AD1_D3wqR3LY6f4diCP407txzYrR27GAGccAw_3a2fnBUtSVccIWMshOpnitUlfWv9BdqnWQzgWPnUE8q_nHrd-mXaBwv_tC76mc8R60eLOBkp2qxd7tyIHUskwjDzm0GK6SvY0E3i4Fu_6_KmJHh4WWXrE7wka-ncv9zxTWmXhvFBsxQ7CTjUTR1IpTum164F8ULF4xcjT8Rqr2Hm6RUT8cq8iz9sv--4O5zEgnZpH0vIyZc3Nfu9C94ndYrQIFYPo2CFNj-ipLoclMpif-sg"
+}

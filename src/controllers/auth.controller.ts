@@ -2,10 +2,10 @@ import { Response, Request } from "express";
 import { prisma } from "lib/prisma";
 import bcrypt from "bcrypt";
 import { PasswordValidator } from "password-validator-pro";
-import { handleErrorResponse } from "utils/errorHandler";
+import { handleErrorResponse } from "utils/errorHandler.utils";
 import { AuthSchema, LoginSchema } from "validators/validators";
 import z from "zod";
-import { passwordErrorHandler } from "utils/passwordErrorHandler";
+import { passwordErrorFormatter } from "utils/passwordErrorFormatter.utils";
 import { signToken } from "utils/signToken.utils";
 
 export const register = async (req: Request, res: Response) => {
@@ -57,7 +57,7 @@ export const register = async (req: Request, res: Response) => {
     if (!passCheckResult.valid) {
       return res.status(403).json({
         success: false,
-        message: passwordErrorHandler(passCheckResult.errors),
+        message: passwordErrorFormatter(passCheckResult.errors),
       });
     }
 

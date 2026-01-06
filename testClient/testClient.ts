@@ -1,46 +1,34 @@
 import axios from "axios";
-import { testPolicyAuditorRequest } from "../src/shared/mockData/testPolicyAuditorRequest";
-import { signJson, verifyJson } from "../src/services/signature";
-import { PolicyAuditorRequest } from "../src/shared/interfaces";
-import { clientPrivateKey, clientPublicKey } from "../src/crypto/clientKeys";
-
-//test payload
-const payload: PolicyAuditorRequest = testPolicyAuditorRequest;
-
-//signature to send (signed with client private key)
-const signature = signJson(payload, clientPrivateKey);
-
-//tampered payload to immitate false request
-const tamperedPayload: PolicyAuditorRequest = { ...payload, country: "RU" };
+import testJSON from "./testPolicy.json";
+import { verifyJson } from "../src/crypto/signature";
+import { serverPublicKey } from "../src/crypto/serverKeys";
 
 async function testSubmit() {
-  const response = await axios.post(
+  const response: any = await axios.post(
     `${process.env.BASE_URL}/api/policies/submit`,
-    {
-      ...payload,
-      signature,
-    }
+    testJSON
   );
 
-  //response data to verify
-  const { signature: serverSignature, ...rest }: any = response.data;
+  const { signature: serverSignature, ...rest } = response.data;
 
-  //returns true/false based on verification success
-  const verify = verifyJson({ ...rest }, serverSignature, clientPublicKey);
+  if (!serverSignature) {
+    throw new Error("No signature returned by server");
+  }
+  const isValid = verifyJson(serverSignature, serverPublicKey);
 
   return {
-    verify,
+    verify: isValid,
     serverSignature,
-    data: { ...rest },
+    ...rest,
   };
 }
 
 async function handleSubmit() {
   try {
     const res = await testSubmit();
-    console.log(res);
+    console.log("Server response verified:", res);
   } catch (err: any) {
-    console.log(err.response.data);
+    console.error(err.response?.data || err.message);
   }
 }
 

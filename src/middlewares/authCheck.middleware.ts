@@ -1,6 +1,5 @@
-import { CustomRequest } from "@shared/interfaces";
 import { Request, Response, NextFunction } from "express";
-import jwt, { VerifyErrors, JwtPayload } from "jsonwebtoken";
+import jwt from "jsonwebtoken";
 
 export const authCheck = (req: Request, res: Response, next: NextFunction) => {
   const header = req.headers.authorization;
@@ -8,7 +7,7 @@ export const authCheck = (req: Request, res: Response, next: NextFunction) => {
   if (!header || !header.startsWith("Bearer")) {
     return res.status(401).json({
       success: false,
-      message: "Invalid Token",
+      message: "Either token has expired or the signature is incorrect",
     });
   }
 
